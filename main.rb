@@ -43,7 +43,7 @@ def write(line, plantName)
 
 def processCustomSearchLink(start, plant) 
     params = ""
-    q = "\"#{plant}\" leaves close up"
+    q = "#{plant} leaves"
     if(start == 0)
         params = "key=AIzaSyAMgn6w3yDAoUbKnjrssnVWi2TEISp1quM&cx=010127211360517059129:3k2jpgzwx10&q=#{q}&searchType=image&imgType=photo&imgDominantColor=green"
     else
@@ -84,9 +84,14 @@ def readFile(file)
     end
 end
 
-#readFile("Plants-ASp.csv")
+
+#readFile("TreesList.csv")
 #puts(links)
 
-downloadImages("Apium", "Apium")
-
+#downloadImages("Olea", "Olea")
+#downloadImages("Platanus", "Platanus")
+#downloadImages("Malus", "Malus")
+#downloadImages("Prunus", "Prunus")
+#downloadImages("Pyrus", "Pyrus")
+downloadImages("Quercus", "Quercus")
 
