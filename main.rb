@@ -88,10 +88,10 @@ end
 #readFile("TreesList.csv")
 #puts(links)
 
-#downloadImages("Olea", "Olea")
-#downloadImages("Platanus", "Platanus")
-#downloadImages("Malus", "Malus")
-#downloadImages("Prunus", "Prunus")
-#downloadImages("Pyrus", "Pyrus")
-downloadImages("Quercus", "Quercus")
+#downloadImages("Acer", "Acer")
+#downloadImages("Aesculus", "Aesculus")
+#downloadImages("Ulmus", "Ulmus")
+#downloadImages("Larix", "Larix")
+downloadImages("Ginkgo", "Ginkgo")
+#downloadImages("Quercus", "Quercus")
 
